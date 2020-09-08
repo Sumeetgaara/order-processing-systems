@@ -10,7 +10,6 @@ C:\Users\Sneha More\source\repos\Order-processing-system\Order-processing-system
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\bin\Debug\net5.0\Order-processing-system.deps.json
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\bin\Debug\net5.0\Order-processing-system.dll
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\bin\Debug\net5.0\Order-processing-system.pdb
-C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.csprojAssemblyReference.cache
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.AssemblyInfoInputs.cache
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.AssemblyInfo.cs
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.csproj.CoreCompileInputs.cache
