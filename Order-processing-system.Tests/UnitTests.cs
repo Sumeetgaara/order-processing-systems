@@ -22,5 +22,12 @@ namespace Order_processing_system.Tests
             IEntity Product = new Book();
             Assert.Equal(new GeneratePackingSlipForShipping().RuleImplementation() + new CommissionPayment().RuleImplementation() + new DuplicatePackingSlip().RuleImplementation() , Product.ApplyRules());
         }
+
+        [Fact]
+        public void IfPaymentIsMembershipActivation()
+        {
+            IEntity Product = new Membership();
+            Assert.Equal(new MembershipActivation().RuleImplementation(), Product.ApplyRules());
+        }
     }
 }

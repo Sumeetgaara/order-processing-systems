@@ -15,4 +15,3 @@ C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-s
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.csproj.CoreCompileInputs.cache
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.dll
 C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.pdb
-C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system\obj\Debug\net5.0\Order-processing-system.csprojAssemblyReference.cache
