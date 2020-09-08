@@ -11,7 +11,7 @@ namespace Order_processing_system.Domain.Concrete_Implementation
         private readonly GeneratePackingSlipForShipping GenerateSlipRule = new GeneratePackingSlipForShipping();
         private readonly CommissionPayment ComPayment = new CommissionPayment();
 
-        public string ApplyRules()
+        public virtual string ApplyRules()
         {
             return GenerateSlipRule.RuleImplementation() + ComPayment.RuleImplementation();
         }
