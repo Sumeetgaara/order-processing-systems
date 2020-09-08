@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Order-processing-system.Client/1.0.0": {
+        "dependencies": {
+          "Order-processing-system": "1.0.0"
+        },
+        "runtime": {
+          "Order-processing-system.Client.dll": {}
+        }
+      },
+      "Order-processing-system/1.0.0": {
+        "runtime": {
+          "Order-processing-system.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Order-processing-system.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order-processing-system/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

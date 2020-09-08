@@ -1,0 +1,16 @@
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.exe
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.deps.json
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.runtimeconfig.json
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.runtimeconfig.dev.json
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.dll
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.Client.pdb
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.dll
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\bin\Debug\net5.0\Order-processing-system.pdb
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.csprojAssemblyReference.cache
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.AssemblyInfoInputs.cache
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.AssemblyInfo.cs
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.csproj.CoreCompileInputs.cache
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.csproj.CopyComplete
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.dll
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.pdb
+C:\Users\Sneha More\Documents\GitHub\order-processing-systems\Order-processing-system.Client\obj\Debug\net5.0\Order-processing-system.Client.genruntimeconfig.cache
