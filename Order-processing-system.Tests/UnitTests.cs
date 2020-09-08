@@ -11,7 +11,7 @@ namespace Order_processing_system.Tests
         public void IfPaymentIsPhysicalProduct()
         {
             IEntity Product = new PhysicalProduct();
-            Assert.Equal(new GeneratePackingSlipForShipping().RuleImplementation(),Product.ApplyRules());
+            Assert.Equal(new GeneratePackingSlipForShipping().RuleImplementation() + new CommissionPayment().RuleImplementation(),Product.ApplyRules());
         }
     }
 }

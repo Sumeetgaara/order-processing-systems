@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Order_processing_system.Domain.Concrete_Implementation
 {
-    public class GeneratePackingSlipForShipping : IRule
+    public class CommissionPayment : IRule
     {
-        public  string RuleImplementation()
+        public string RuleImplementation()
         {
             //implementation is trivial
-            return "Slip generated";
+            return "Comission payment done";
         }
     }
 }

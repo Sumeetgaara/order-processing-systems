@@ -8,6 +8,6 @@ namespace Order_processing_system.Domain.Interfaces
 {
     public interface IRule
     {
-        string RuleImplementation();
+         string RuleImplementation();
     }
 }
