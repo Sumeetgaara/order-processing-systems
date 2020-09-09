@@ -10,7 +10,7 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
     public class Book :  PhysicalProduct, IEntity
     {
         private readonly DuplicatePackingSlip DuplicateSlip = new DuplicatePackingSlip();
-        public override string ApplyRules()
+        public override string ApplyRules(string Action = "")
         {
             return base.ApplyRules() + DuplicateSlip.RuleImplementation();
         }

@@ -10,10 +10,23 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
     public class Membership : IEntity
     {
         private readonly MembershipActivation Activation = new MembershipActivation();
-        public virtual string ApplyRules()
+
+        public virtual string ApplyRules(string Action = "")
         {
-            return Activation.RuleImplementation();
+            switch (Action)
+            {
+                case "Activation":
+                   return ActivateMemberShip();
+                default:
+                     return "default values";  // can be updated according to domain logic.
+            }
         }
 
+        private string ActivateMemberShip()
+        {
+            //implementation is trivial
+            return Activation.RuleImplementation();
+
+        }
     }
 }
