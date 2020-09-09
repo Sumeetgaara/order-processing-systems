@@ -36,5 +36,12 @@ namespace Order_processing_system.Tests
             IEntity Product = new Membership();
             Assert.Equal(new MembershipUpgrade().RuleImplementation(), Product.ApplyRules("Upgrade"));
         }
+
+        [Fact]
+        public void VideoIsLearningToSki()
+        {
+            IEntity Product = new Video("Learning to Ski");
+            Assert.Equal(new FirstAid().RuleImplementation(), Product.ApplyRules());
+        }
     }
 }
