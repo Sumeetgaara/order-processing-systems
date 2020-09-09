@@ -29,5 +29,12 @@ namespace Order_processing_system.Tests
             IEntity Product = new Membership();
             Assert.Equal(new MembershipActivation().RuleImplementation(), Product.ApplyRules("Activation"));
         }
+
+        [Fact]
+        public void IfPaymentIsMembershipUpgrade()
+        {
+            IEntity Product = new Membership();
+            Assert.Equal(new MembershipUpgrade().RuleImplementation(), Product.ApplyRules("Upgrade"));
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
     public class Membership : IEntity
     {
         private readonly MembershipActivation Activation = new MembershipActivation();
+        private readonly MembershipUpgrade Upgrade = new MembershipUpgrade();
 
         public virtual string ApplyRules(string Action = "")
         {
@@ -17,6 +18,8 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
             {
                 case "Activation":
                    return ActivateMemberShip();
+                case "Upgrade":
+                    return UpgradeMemberShip();
                 default:
                      return "default values";  // can be updated according to domain logic.
             }
@@ -27,6 +30,12 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
             //implementation is trivial
             return Activation.RuleImplementation();
 
+        }
+
+        private string UpgradeMemberShip()
+        {
+            //implementation is trivial
+            return Upgrade.RuleImplementation();
         }
     }
 }
