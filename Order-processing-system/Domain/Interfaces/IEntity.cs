@@ -8,6 +8,6 @@ namespace Order_processing_system.Domain
 {
     public interface IEntity
     {
-      abstract string ApplyRules();
+       string ApplyRules(string Action ="");
     }
 }
