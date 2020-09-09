@@ -14,15 +14,12 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
 
         public virtual string ApplyRules(string Action = "")
         {
-            switch (Action)
+            return Action switch
             {
-                case "Activation":
-                   return ActivateMemberShip();
-                case "Upgrade":
-                    return UpgradeMemberShip();
-                default:
-                     return "default values";  // can be updated according to domain logic.
-            }
+                "Activation" => ActivateMemberShip(),
+                "Upgrade" => UpgradeMemberShip(),
+                _ => "default"
+            };
         }
 
         private string ActivateMemberShip()

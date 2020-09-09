@@ -16,6 +16,14 @@ namespace Order_processing_system.Client
             var BookPayment = new Book();
             Console.WriteLine(BookPayment.ApplyRules());
 
+            //Membership use case
+            var MembershipPayment = new Membership();
+            Console.WriteLine(MembershipPayment.ApplyRules("Activation"));
+
+            //Video use case
+            var VideoPayment = new Video("Learning to Ski");
+            Console.WriteLine(VideoPayment.ApplyRules());
+
             Console.ReadKey();
 
         }

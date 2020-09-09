@@ -10,20 +10,21 @@ namespace Order_processing_system.Domain.Concrete_Implementation.Different_Entit
     public class Video : IEntity
     {
         private readonly FirstAid FirstAdd = new FirstAid();
+        private List<string> FirstAidFilterVideoList = new List<string>();
         public string VideoName { get; }
         public Video(string videoname)
         {
             VideoName = videoname;
+            PopulateFirstAidFilterVideoList();
+
         }
-        public string ApplyRules(string Action = "")
+
+        public string ApplyRules(string Action = "") =>  FirstAidFilterVideoList.Contains(VideoName)? FirstAdd.RuleImplementation() :  "default values";
+      
+        private void PopulateFirstAidFilterVideoList()
         {
-            switch (VideoName)
-            {
-                case "Learning to Ski":     
-                    return FirstAdd.RuleImplementation();
-                default:
-                    return "default values";  // can be updated according to domain logic.
-            }
+            // can be populated using DB
+            FirstAidFilterVideoList.Add("Learning to Ski");
         }
     }
 }
